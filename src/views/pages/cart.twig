@@ -227,6 +227,7 @@
                              class="flex justify-between text-sm mb-5 {{ cart.has_shipping ? '' : 'hidden' }}">
                             <span class="text-gray-500">{{ trans('pages.cart.shipping_cost') }}</span>
                             <b>{{ cart.real_shipping_cost|money }}</b>
+                            
                         </div>
 
                         {# todo :: use form #}
