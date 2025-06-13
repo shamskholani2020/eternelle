@@ -1,6 +1,6 @@
-/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/.pnpm/css-loader@6.11.0_webpack@5.98.0/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/.pnpm/postcss-loader@7.3.4_postcss@8.5.3_typescript@5.7.3_webpack@5.98.0/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.3.3_sass@1.85.1_webpack@5.98.0/node_modules/sass-loader/dist/cjs.js!./src/assets/styles/app.scss ***!
-  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/css-loader@6.11.0_webpack@5.99.9/node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/.pnpm/postcss-loader@7.3.4_postcss@8.5.5_webpack@5.99.9/node_modules/postcss-loader/dist/cjs.js!./node_modules/.pnpm/sass-loader@13.3.3_sass@1.89.2_webpack@5.99.9/node_modules/sass-loader/dist/cjs.js!./src/assets/styles/app.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /*
  * IMPORTANT NOTE: Theme based on Tailwindcss but for the purpose of simplifing the DOM we use
  * tailwind classes with @apply directive in the SCSS files
@@ -770,6 +770,7 @@ select{background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/
 .text-sm{font-size:0.875rem;line-height:1.25rem}
 .text-xl{font-size:1.25rem;line-height:1.75rem}
 .text-xs{font-size:0.75rem;line-height:1rem}
+.text-4xl{font-size:2.25rem;line-height:2.5rem}
 .font-bold{font-weight:700}
 .font-medium{font-weight:500}
 .font-normal{font-weight:400}
@@ -6267,7 +6268,7 @@ iframe.tawk-widget {
 .swal2-container .swal2-popup.swal2-toast.swal2-icon-error .swal2-x-mark-line-left{--tw-bg-opacity:1;background-color:rgba(255, 255, 255, 1);background-color:rgba(255, 255, 255, var(--tw-bg-opacity, 1))}
 .swal2-container .swal2-popup.swal2-toast.swal2-icon-success{--tw-bg-opacity:1;background-color:rgba(34, 197, 94, 1);background-color:rgba(34, 197, 94, var(--tw-bg-opacity, 1))}
 .swal2-container .swal2-popup.swal2-toast.swal2-icon-success *{--tw-text-opacity:1;color:rgba(255, 255, 255, 1);color:rgba(255, 255, 255, var(--tw-text-opacity, 1))}
-@media not all and (-webkit-min-device-pixel-ratio: 0), not all and (min-resolution: 0.001dpcm) {
+@media not all and (min-resolution: 0.001dpcm) {
   @supports (-webkit-appearance: none) {
     .full-banner-entry {
       background-attachment: scroll;

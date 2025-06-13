@@ -6,9 +6,16 @@
 | page.slug        | string     | ex: "cat.show"                                                      |
 #}
 {% extends "layouts.master" %}
+
 {% block content %}
     {% component home %}
 {% endblock %}
+
+<div class="w-full h-20 bg-dark flex items-center justify-center">
+    <h1 class="text-2xl font-bold text-white">Text 2xl</h1>
+</div>
+
+
 {% block scripts %}
     <script defer src="{{ 'home.js' | asset }}"></script>
 {% endblock %}
